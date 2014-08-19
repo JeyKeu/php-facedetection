@@ -1,8 +1,8 @@
 {
-    "name": "marcelomx/php-facedetection",
+    "name": "jeykeu/php-faces",
     "description": "PHP class to detect one face in images. A pure PHP port of an existing JS code from Karthik Tharavad.",
     "license": "GNU GPL v2",
-    "homepage": "https://github.com/mauricesvay/php-facedetection",    
+    "homepage": "https://github.com/mauricesvay/php-facedetection",
     "authors": [
         {
             "name": "Maurice Svay",
@@ -14,6 +14,8 @@
         "ext-gd": "*"
     },
     "autoload": {
-        "classmap": ["FaceDetector.php"]
+        "psr-4": {
+            "JeyKeu\\": ["src/JeyKeu/"]
+        }
     }
 }
