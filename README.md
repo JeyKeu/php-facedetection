@@ -1,7 +1,10 @@
-PHP Face Detection
+PHP Faces - Face Detection Library for PHP
 ==================
+This is a fork of [php facedetection](https://github.com/mauricesvay/php-facedetection) by [Maurice Svay](https://github.com/mauricesvay)
 
-This class detect one face in images. This is a pure PHP port of an existing JS code from Karthik Tharavaad.
+This class can detect one face in images ATM. 
+
+This is a pure PHP port of an existing JS code from Karthik Tharavaad.
 
 Requirements
 ------------
